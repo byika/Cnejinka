@@ -1,4 +1,4 @@
-﻿
+
 
 
 #include <iostream>
@@ -88,8 +88,10 @@ int main()
 		
 
 	case 3:
-		cout << "\n3. !Bbl DOshLU DO HECGOPAEMOU CYMMbl (1000)!\n\n";
-		cout << "\n3UMOU U LETOM ODNIM ZBETOM: \n A)GRYshA\tB)DEHbGU\tC)ELKA\tD)DOM\n";
+		if (coins == 1000) {
+			cout << "\n!Bbl DOshLU DO HECGOPAEMOU CYMMbl (1000)!\n\n";
+		}
+		cout << "\n3. 3UMOU U LETOM ODNIM ZBETOM: \n A)GRYshA\tB)DEHbGU\tC)ELKA\tD)DOM\n";
 		std::getline(std::cin, ans);
 		if (ans == "C") {
 			Win();
@@ -106,6 +108,9 @@ int main()
 		
 
 	case 4:
+		if (coins == 1000) {
+			cout << "\n!Bbl DOshLU DO HECGOPAEMOU CYMMbl (1000)!\n\n";
+		}
 		cout << "\n4. sin(30) ???: \n A)1/2\tB)2/2\tC)1\tD)1.0\n";
 		std::getline(std::cin, ans);
 		if (ans == "A") {
@@ -123,6 +128,9 @@ int main()
 		
 
 	case 5:
+		if (coins == 1000) {
+			cout << "\n!Bbl DOshLU DO HECGOPAEMOU CYMMbl (1000)!\n\n";
+		}
 		cout << "\n5. TlOD KAKOU bYKBOU bblL TlPABULbHblU OTBET HA TlePBblU BOTlPOC? \n A)B\tB)E\tC)D\tD)B\n";
 		std::getline(std::cin, ans);
 		if (ans == "D") {
